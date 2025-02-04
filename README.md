@@ -19,6 +19,8 @@ demo and reports much important
 
 entire together
 
+size of model/cost of model
+
 ## Actions
 
 
