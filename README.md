@@ -11,7 +11,9 @@ different ways/models/views to use
 
 more figures/no much words
 
-10 min presentation
+10 min presentation 
+
+spread more roles
 
 ## Actions
 
