@@ -21,6 +21,9 @@ entire together
 
 size of model/cost of model
 
+framework is important
+
+interaction between users and llama
 ## Actions
 
 
