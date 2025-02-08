@@ -1,6 +1,24 @@
-# performance--benchmarking
+# Performance--Benchmarking
 
-## Pythonn package
+## Baseline Model
+
+###  Med42-Llama3.1-8B
+
+## Benchmarking Datasets
+
+###  MMLU 
+
+### MMLU-Pro
+
+### MMLU-Pro
+
+###  MedQA
+
+### USMLE
+
+### PubmedQA 
+
+### ToxiGen 
 
 
 ## Requirement
@@ -24,6 +42,6 @@ size of model/cost of model
 framework is important
 
 interaction between users and llama
-## Actions
+
 
 
