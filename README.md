@@ -1,13 +1,4 @@
----
-title: "The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare"
-thumbnail: /blog/assets/leaderboards-on-the-hub/thumbnail_medicalllm.png
-authors:
-- user: aaditya
-  guest: true
-- user: pminervini
-  guest: true
-- user: clefourrier
----
+
 
 # The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare
 
@@ -147,19 +138,4 @@ Special thanks to all the people who helped make this possible, including Cléme
 Open Life Science AI is a project that aims to revolutionize the application of Artificial intelligence in the life science and healthcare domains. It serves as a central hub for list of medical models, datasets, benchmarks, and tracking conference deadlines, fostering collaboration, innovation, and progress in the field of AI-assisted healthcare.  We strive to establish Open Life Science AI as the premier destination for anyone interested in the intersection of AI and healthcare. We provide a platform for researchers, clinicians, policymakers, and industry experts to engage in dialogues, share insights, and explore the latest developments in the field.
 
 ![OLSA logo](https://github.com/monk1337/research_assets/blob/main/huggingface_blog/olsa.png?raw=true)
-
-## Citation
-
-If you find our evaluations useful, please consider citing our work
-
-**Medical-LLM Leaderboard**
-```
-@misc{Medical-LLM Leaderboard,
-author = {Ankit Pal, Pasquale Minervini, Andreas Geert Motzfeldt, Aryo Pradipta Gema and Beatrice Alex},
-title = {openlifescienceai/open_medical_llm_leaderboard},
-year = {2024},
-publisher = {Hugging Face},
-howpublished = "\url{https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard}"
-}
-```
 
