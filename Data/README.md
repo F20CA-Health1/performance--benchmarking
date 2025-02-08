@@ -1,27 +1,18 @@
-# Performance--Benchmarking
+# Benchmarking Datasets
 
-## Baseline Model
+##  MMLU 
 
-###  Med42-Llama3.1-8B
+## MMLU-Pro
 
-## Benchmarking Datasets
+##  MedQA
 
-###  MMLU 
+## USMLE
 
-### MMLU-Pro
+## PubmedQA 
 
-### MMLU-Pro
+## ToxiGen 
 
-###  MedQA
-
-### USMLE
-
-### PubmedQA 
-
-### ToxiGen 
-
-
-## Requirement
+# Requirement
 
 specific medicine problems
 
