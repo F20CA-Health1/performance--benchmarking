@@ -1,5 +1,3 @@
-
-
 # The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare
 
 ![Image source : https://arxiv.org/pdf/2311.05112.pdf](https://github.com/monk1337/research_assets/blob/main/huggingface_blog/medical_llms.png?raw=true)
@@ -81,61 +79,4 @@ Google's model, [Gemini Pro](https://arxiv.org/abs/2312.11805) demonstrates stro
 ![Image source : [https://arxiv.org/abs/2402.07023](https://arxiv.org/abs/2402.07023)](https://github.com/monk1337/research_assets/blob/main/huggingface_blog/subjectwise_eval.png?raw=true)
 
 
-## Submitting Your Model for Evaluation
-
-To submit your model for evaluation on the Open Medical-LLM Leaderboard, follow these steps:
-
-**1. Convert Model Weights to Safetensors Format**
-
-First, convert your model weights to the safetensors format. Safetensors is a new format for storing weights that is safer and faster to load and use. Converting your model to this format will also allow the leaderboard to display the number of parameters of your model in the main table.
-
-**2. Ensure Compatibility with AutoClasses**
-
-Before submitting your model, make sure you can load your model and tokenizer using the AutoClasses from the Transformers library. Use the following code snippet to test the compatibility:
-
-```python
-from transformers import AutoConfig, AutoModel, AutoTokenizer
-config = AutoConfig.from_pretrained(MODEL_HUB_ID)
-model = AutoModel.from_pretrained("your model name")
-tokenizer = AutoTokenizer.from_pretrained("your model name")
-
-```
-
-If this step fails, follow the error messages to debug your model before submitting it. It's likely that your model has been improperly uploaded.
-
-**3. Make Your Model Public**
-
-Ensure that your model is publicly accessible. The leaderboard cannot evaluate models that are private or require special access permissions.
-
-**4. Remote Code Execution (Coming Soon)**
-
-Currently, the Open Medical-LLM Leaderboard does not support models that require `use_remote_code=True`. However, the leaderboard team is actively working on adding this feature, so stay tuned for updates.
-
-**5. Submit Your Model via the Leaderboard Website**
-
-Once your model is in the safetensors format, compatible with AutoClasses, and publicly accessible, you can submit it for evaluation using the "Submit here!" panel on the Open Medical-LLM Leaderboard website. Fill out the required information, such as the model name, description, and any additional details, and click the submit button.
-
-The leaderboard team will process your submission and evaluate your model's performance on the various medical QA datasets. Once the evaluation is complete, your model's scores will be added to the leaderboard, allowing you to compare its performance with other submitted models.
-
-## What's next? Expanding the Open Medical-LLM Leaderboard
-
-The Open Medical-LLM Leaderboard is committed to expanding and adapting to meet the evolving needs of the research community and healthcare industry. Key areas of focus include:
-
-1. Incorporating a wider range of medical datasets covering diverse aspects of healthcare, such as radiology, pathology, and genomics, through collaboration with researchers, healthcare organizations, and industry partners.
-2. Enhancing evaluation metrics and reporting capabilities by exploring additional performance measures beyond accuracy, such as Pointwise score and domain-specific metrics that capture the unique requirements of medical applications.
-3. A few efforts are already underway in this direction. If you are interested in collaborating on the next benchmark we are planning to propose, please join our [Discord community](https://discord.gg/A5Fjf5zC69) to learn more and get involved. We would love to collaborate and brainstorm ideas!
-
-If you're passionate about the intersection of AI and healthcare, building models for the healthcare domain, and care about safety and hallucination issues for medical LLMs, we invite you to join our vibrant [community on Discord](https://discord.gg/A5Fjf5zC69).
-
-## Credits and Acknowledgments
-
-![Credits](https://github.com/monk1337/research_assets/blob/main/huggingface_blog/credits.png?raw=true)
-
-Special thanks to all the people who helped make this possible, including Clémentine Fourrier and the Hugging Face team. I would like to thank Andreas Motzfeldt, Aryo Gema, & Logesh Kumar Umapathi for their discussion and feedback on the leaderboard during development. Sincere gratitude to Prof. Pasquale Minervini for his time, technical assistance, and for providing GPU support from the University of Edinburgh.
-
-## About Open Life Science AI
-
-Open Life Science AI is a project that aims to revolutionize the application of Artificial intelligence in the life science and healthcare domains. It serves as a central hub for list of medical models, datasets, benchmarks, and tracking conference deadlines, fostering collaboration, innovation, and progress in the field of AI-assisted healthcare.  We strive to establish Open Life Science AI as the premier destination for anyone interested in the intersection of AI and healthcare. We provide a platform for researchers, clinicians, policymakers, and industry experts to engage in dialogues, share insights, and explore the latest developments in the field.
-
-![OLSA logo](https://github.com/monk1337/research_assets/blob/main/huggingface_blog/olsa.png?raw=true)
 
