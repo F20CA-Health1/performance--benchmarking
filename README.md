@@ -6,18 +6,16 @@ To run local inference, modify the model name in the following script and execut
 
 ```bash
 cd scripts/examples/
-sh eval_llama_2_7b.sh
+sh eval_med42_8b.sh
 ```
 
 ## 🏆 Mini-Leaderboard
 | Model           | MMLU-PRO | mmlu-1 | MMLU-2 |
 | :-------------- | :------- | :----- | :----- |
 | Llama3-Med42-8B | 0.529    | 0.790  | 0.676  |
-|                 |          |        |        |
-|                 |          |        |        |
 
 ## Benchmarking Answer Extraction
 We provide different alternatives to do answer extraction. We found that different answer extraction mechanisms have minor impact on the results.
 ```
-python compute_accuracy.py results/llama-3-8b-quantized/CoT/all/
+python compute_accuracy.py results/med42_8b-quantized/CoT/all/
 ```
