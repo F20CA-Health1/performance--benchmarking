@@ -1,4 +1,4 @@
-# Pipline for Performance Benchmarking
+# Pipeline for Performance Benchmarking
 
 ## Evaluation
 
